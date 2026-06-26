@@ -254,3 +254,33 @@ This showed how changing input variables can affect the strength of the relation
 This project helped me better understand that regression models depend heavily on variable selection.
 
 It also reinforced that **R² values alone are not enough** and that graphs must be examined to determine whether a linear model is appropriate.
+## Additional Documentation
+
+See AI_USE.md for documentation describing how AI tools were used during project development.
+## Additional Analysis of the CO2 Regression Example
+
+After comparing the regression model, I noticed that the CO2 dataset did not fit a simple linear regression model as clearly as the penguin dataset.
+
+One possible reason is that **CO2 emissions are influenced by many additional factors beyond population or GDP alone.**
+
+Possible factors include:
+
+- differences in country size
+- industrial development
+- population density
+- government environmental policies
+- access to renewable energy
+- differences in time periods or year-to-year changes
+
+Unlike the penguin dataset, which contains biological measurements that are naturally related, the CO2 dataset represents real-world environmental and economic systems with many interacting variables.
+
+### Plan for Further Analysis
+
+If I were to continue this project, I would include additional variables such as:
+
+- year
+- country
+- GDP per capita
+- energy consumption
+
+This could help build a more accurate model and better explain variation in CO2 emissions.
