@@ -22,3 +22,57 @@ to get these projects running on your machine.
 The API page is not always easy to read at first,
 but it becomes useful as you get more comfortable with project structure,
 modules, functions, and docstrings.
+## Custom Project – CO2 Regression Analysis
+
+For my custom project, I modified the original CO2 regression example to explore how changing the predictor variable affects the regression model and the interpretation of results.
+
+### Project Goal
+
+The goal of this project was to determine whether **population** predicts **CO2 emissions** more effectively than **GDP** and to compare how changing variables affects regression output.
+
+### Dataset Used
+
+I used the existing CO2 dataset included in the project, which contains data from multiple countries and includes variables such as:
+
+- country
+- year
+- CO2 emissions
+- GDP
+- population
+
+### Modifications Made
+
+I modified the regression analysis by changing the predictor variable.
+
+Original model:
+
+- Feature (x): GDP
+- Target (y): CO2 emissions
+
+Modified model:
+
+- Feature (x): Population
+- Target (y): CO2 emissions
+
+I also updated the graph labels so the visualizations reflected the new variable being analyzed.
+
+### Results
+
+After changing the predictor variable, the regression model produced different statistical output and a different regression graph.
+
+This demonstrated that regression models are highly dependent on variable selection and that changing the feature being analyzed can significantly affect the strength of the relationship.
+
+### Skills Practiced
+
+This project helped me practice:
+
+- regression analysis
+- variable selection
+- interpreting R² and RMSE values
+- evaluating regression graphs
+- understanding model limitations
+- documenting technical work using GitHub and GitHub Pages
+
+### What I Learned
+
+This project reinforced that **R² values alone are not enough** and that graphs must always be used to determine whether a linear regression model is truly appropriate for a dataset.
