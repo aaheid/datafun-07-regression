@@ -89,7 +89,7 @@ FEATURE_COL: Final[str] = "gdp"
 TARGET_COL: Final[str] = "co2"
 
 # CUSTOM: Assign readable labels for the charted variables.
-FEATURE_LABEL: Final[str] = "GDP"
+FEATURE_LABEL: Final[str] = "GDP custom label"
 TARGET_LABEL: Final[str] = "CO2 emissions"
 
 # CUSTOM: A single feature value to predict the target for, as an example.
