@@ -83,13 +83,13 @@ DATASET_NAME: Final[str] = "owid-co2-data-subset"
 # ==========================================================
 
 # CUSTOM: One numeric feature (the predictor, plotted on the x-axis)
-FEATURE_COL: Final[str] = "gdp"
+FEATURE_COL: Final[str] = "population"
 
 # CUSTOM: One numeric target (the response, plotted on the y-axis)
 TARGET_COL: Final[str] = "co2"
 
 # CUSTOM: Assign readable labels for the charted variables.
-FEATURE_LABEL: Final[str] = "GDP custom label"
+FEATURE_LABEL: Final[str] = "Population"
 TARGET_LABEL: Final[str] = "CO2 emissions"
 
 # CUSTOM: A single feature value to predict the target for, as an example.

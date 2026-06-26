@@ -212,3 +212,45 @@ Additional instructions, terms, and project notes:
 ## License
 
 [MIT](./LICENSE)
+
+## Custom Project – Regression Analysis
+
+For my custom project, I modified the original CO2 regression example to test a different predictor variable and compare how the regression model changed.
+
+### Project Goal
+
+The goal of this project was to explore whether **population** predicts **CO2 emissions** more effectively than **GDP**.
+
+### Modifications Made
+
+I modified the original regression analysis by changing the predictor variable.
+
+Original model:
+
+- Feature (x): GDP
+- Target (y): CO2 emissions
+
+Modified model:
+
+- Feature (x): Population
+- Target (y): CO2 emissions
+
+### Custom Command
+
+Run the project with:
+
+```bash
+uv run python -m datafun.app_co2_case
+```
+
+### Results
+
+After changing the predictor variable from GDP to population, the regression model produced different statistical outputs and visualizations.
+
+This showed how changing input variables can affect the strength of the relationship and the quality of the regression model.
+
+### What I Learned
+
+This project helped me better understand that regression models depend heavily on variable selection.
+
+It also reinforced that **R² values alone are not enough** and that graphs must be examined to determine whether a linear model is appropriate.
